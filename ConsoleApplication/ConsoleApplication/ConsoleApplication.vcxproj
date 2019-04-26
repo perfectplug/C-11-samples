@@ -95,6 +95,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -151,9 +152,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="libs\ThreadPool\ThreadPool.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="sample1.h" />
     <ClInclude Include="sample2.h" />
+    <ClInclude Include="sample3.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication.cpp" />
@@ -165,6 +168,7 @@
     </ClCompile>
     <ClCompile Include="sample1.cpp" />
     <ClCompile Include="sample2.cpp" />
+    <ClCompile Include="sample3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -5,6 +5,7 @@
 #include <iostream>
 #include "sample1.h"
 #include "sample2.h"
+#include "sample3.h"
 
 int main()
 {
@@ -12,6 +13,8 @@ int main()
 	TestSample1_2();
 
 	TestSample2_1();
+
+	TestSample3_1();
     std::cout << "Hello World!\n"; 
 }
 

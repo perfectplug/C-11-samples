@@ -6,6 +6,8 @@
 #include "sample1.h"
 #include "sample2.h"
 #include "sample3.h"
+#include "sample4.h"
+
 
 int main()
 {
@@ -15,6 +17,9 @@ int main()
 	TestSample2_1();
 
 	TestSample3_1();
+
+	funcTestSample4_0();
+
     std::cout << "Hello World!\n"; 
 }
 
